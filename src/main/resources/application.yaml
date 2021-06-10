@@ -1,0 +1,22 @@
+spring: 
+  cloud:
+    gcp:
+      config:
+        enabled: true
+      firestore:
+        project-id: vmbears-website
+        enabled: true
+ 
+
+google:
+  cloud:
+    connection-timeout: 60000
+    read-timeout: 60000
+    security-key-file: credentials.json
+    project-id: vmbears-website
+
+
+
+
+
+    
